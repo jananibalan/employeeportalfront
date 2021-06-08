@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.SignIn{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0,2rem;
+    background-image: linear-gradient(to right,rgba(255,159,74,1),rgba(255,60,131,1));
+    
+}
+
+
+.SignIn_Box{
+    justify-content: center;
+    padding-left: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+.SignIn_Box input{
+    width: 140%;
+    margin: 15px;
+    padding: 15px;
+    /* border-radius: 5px; */
+    border-color: white;
+}
+
+.SignIn_Box input[type="submit"]{
+    width: 60%;
+    padding: 10px;
+    margin-left: 120px;
+    /* border-radius: 20px; */
+    color: white;
+    background-color: #7d5b6d;
+    /* border-color: #CE5B46; */
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+}
+.SignIn_Box input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.SignIn_Box .title_SU{
+    margin-left: 150px;
+    color: White;
+}
+
+.SignIn_Box .bottomLinkWrapper{
+    margin-left: 150px;
+}
+
+.SignIn_Box a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.SignIn_Box a:hover{
+    text-decoration: underline;
+}
